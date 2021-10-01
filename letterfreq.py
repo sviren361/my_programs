@@ -1,0 +1,6 @@
+x=input("Enter text ")
+y=input("Enter letter ")
+l=x.count(y)
+print(l)
+o=int((l/len(x))*100)
+print(o)
